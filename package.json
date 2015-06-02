@@ -1,0 +1,23 @@
+{
+  "name": "json-stream-watchdog",
+  "version": "1.0.0",
+  "description": "json-stream reproter for watchdog, with runid, filepath.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"no test.\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lonfee88/json-stream-watchdog.git"
+  },
+  "keywords": [
+    "mocha",
+    "reporter"
+  ],
+  "author": "lonfee88@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lonfee88/json-stream-watchdog/issues"
+  },
+  "homepage": "https://github.com/lonfee88/json-stream-watchdog"
+}
