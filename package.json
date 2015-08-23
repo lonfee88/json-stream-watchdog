@@ -8,16 +8,46 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:lonfee88/json-stream-watchdog.git"
+    "url": "git+ssh://git@github.com/lonfee88/json-stream-watchdog.git"
   },
   "keywords": [
     "mocha",
     "reporter"
   ],
-  "author": "lonfee88@gmail.com",
+  "author": {
+    "name": "lonfee88@gmail.com"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lonfee88/json-stream-watchdog/issues"
   },
-  "homepage": "https://github.com/lonfee88/json-stream-watchdog"
+  "homepage": "https://github.com/lonfee88/json-stream-watchdog",
+  "gitHead": "56dd34130e1de302abf98f26b3ba2f623fbbad40",
+  "_id": "json-stream-watchdog@1.0.0",
+  "_shasum": "b7f5124fce50757c62c3f238fb964cd4ce8aea40",
+  "_from": "json-stream-watchdog@*",
+  "_npmVersion": "2.7.4",
+  "_nodeVersion": "0.12.2",
+  "_npmUser": {
+    "name": "lonfee88",
+    "email": "lonfee88@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "lonfee88",
+      "email": "lonfee88@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "b7f5124fce50757c62c3f238fb964cd4ce8aea40",
+    "size": 993,
+    "noattachment": false,
+    "key": "json-stream-watchdog/-/json-stream-watchdog-1.0.0.tgz",
+    "tarball": "http://registry.npm.alibaba-inc.com/json-stream-watchdog/download/json-stream-watchdog-1.0.0.tgz"
+  },
+  "directories": {},
+  "publish_time": 1433237401243,
+  "_cnpm_publish_time": 1433237401243,
+  "_resolved": "http://registry.npm.alibaba-inc.com/json-stream-watchdog/download/json-stream-watchdog-1.0.0.tgz",
+  "readme": "README.md"
 }
