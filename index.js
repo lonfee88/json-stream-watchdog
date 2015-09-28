@@ -1,5 +1,7 @@
 var Base = require('mocha').reporters.Base;
 var moment = require('moment');
+var path = require('path');
+var minimist = require('minimist');
 
 /**
  * Expose `List`.
@@ -13,6 +15,8 @@ exports = module.exports = List;
  * @param {Runner} runner
  * @api public
  */
+
+var argv = minimist(process.argv.slice(2), {alias: {'file':'files'}});
 
 function List(runner) {
     Base.call(this, runner);
@@ -71,6 +75,7 @@ function List(runner) {
 
 function clean(test) {
     return {
+        file: argv.files,
         title: test.title,
         fullTitle: test.fullTitle(),
         duration: test.duration
