@@ -60,7 +60,7 @@ function List(runner) {
     runner.on('end', function () {
         self.stats.start = formatTime(self.stats.start);
         self.stats.end = formatTime(self.stats.end);
-        process.stdout.write(JSON.stringify(['end', self.stats]));
+        console.log(JSON.stringify(['end', self.stats]));
     });
 }
 
